@@ -1,0 +1,135 @@
+.Header{
+    display: flex;
+    background-color: #1f2937;
+}
+.HeaderA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 24px;
+    flex: 1 0 auto;
+}
+.HeaderB{
+    display: flex;
+    flex: 2 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.HeaderBchild{
+    color: #E5E7EB;
+    font-size: 18px;   
+}
+.FirstSection{
+    display: flex;
+    background-color: #1f2937;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.SectionA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 250px;
+    width: 400px;
+}
+.SectionAchildA {
+    color: #E5E7EB;
+    font-size: 48px;
+    font-weight: extra-bold;   
+}
+.SectionAchildB {
+    color: #E5E7EB;
+    font-size: 20px;
+}
+.SectionAbutton{
+    width: 130px;
+    font-size: 20px;
+    border: none;
+    border-radius: px;
+}
+.SectionB{
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 500px;
+}
+.SectionBchild{
+    color: #F9FAF8;
+    font-size: 20px;
+}
+.SecondSection{
+    background-color: white;
+    height: 500px;
+}
+.SecondSectionAchild{
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.SecondSectionBchild{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 300px;
+}
+.ThirdSection{
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ThirdSectionA{
+    font-size: 30px; 
+    font-weight: 400;
+    font-style: italic;
+    width: 600px;
+}
+.ThirdSectionB{
+    font-weight: 600;
+    text-align: end;
+    width: 600px;
+}
+.FordSection{
+    background-color: white;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FordSectionChild{
+    background-color: skyblue;
+    height: 200px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.SectionBbutton{
+    border: 2px solid white;
+    background-color: skyblue;
+    color: black;
+    padding: 5px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+}
+.Footer{
+    height: 100px;
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
